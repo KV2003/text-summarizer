@@ -1,0 +1,45 @@
+.Text{
+    background-color: rgb(242, 210, 49);
+    height:auto 
+}
+.Original_title {
+    background-color: rgb(250, 121, 121);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+.Summary_title{
+    background-color:rgb(143, 248, 137);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+} 
+.srt{
+    display: flex;
+    flex-direction: row;
+}
+.Original_txt{
+    background-color: rgb(250, 121, 121);
+    padding: 20px;
+}
+.Summary_txt{
+    background-color:rgb(143, 248, 137);
+    padding: 20px;
+    margin-left: 10px;
+}
+.heading{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.lead{
+    display: flex;
+    justify-content: center;
+}
+.submitbtn{
+    margin-top: 10px;
+}
