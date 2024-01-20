@@ -1,0 +1,5 @@
+Flask, render_template, request from flask
+nlargest from heapq
+spacy 
+STOP_WORDS
+punctuations from string

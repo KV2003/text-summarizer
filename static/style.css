@@ -39,7 +39,21 @@
 .lead{
     display: flex;
     justify-content: center;
+    font-weight: 400;
 }
 .submitbtn{
     margin-top: 10px;
+}
+a{
+    display: flex;
+    justify-content: center;
+}
+.home{
+    margin-bottom: 15px;
+    display: flex;
+    text-align: center;
+    justify-self: center;
+}
+#titles{
+    margin-top: 15px;
 }

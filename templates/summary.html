@@ -13,12 +13,13 @@
         <div class="Text Summarizer">
             <div class="container">
               <h1 class="display-4 heading">Text Summarizer</h1>
-              <p class="lead">Retrive the best summary for your text;)</p>
+              <p class="lead">Retrive the best summary for your text</p>
+              <a href="{{ url_for('index') }}"><button class="btn btn-success home" type="submit" >Return to home page</button></a>
             </div>
         </div>
     </div>
 
-    <div class="container" style="display: flex; justify-content: space-around;">
+    <div class="container"  id='titles' style="display: flex; justify-content: space-around;">
         <p class="Original_title col-sm-4">Original Text</p>
         <p class="Summary_title col-sm-4">Generated Summary</p>
     </div>
